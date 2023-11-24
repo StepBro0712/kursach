@@ -1,6 +1,5 @@
 <template>
   <div class='error-container'>
-    <p>Произошла ошибочка</p>
   </div>
 </template>
 
@@ -12,7 +11,7 @@ export default {
 
 <style scoped>
 .error-container {
-  background-image: url('@/assets/error/error2.jpg');
+  background-image: url('@/assets/error/error.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

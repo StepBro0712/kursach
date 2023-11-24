@@ -21,9 +21,9 @@ export default {
   justify-content: center;
 
   background-color: #ff0000;
-  color: #fff;
+  color: #ffffff;
 
-  border: 4px solid #FFFFFF;
+  border: 4px solid #000000;
   border-radius: 35px;
 }
 

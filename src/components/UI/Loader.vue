@@ -45,14 +45,14 @@ export default {
 }
 
 .vr-loader-ring {
-  border-top-color: #007bff;
-  border-bottom-color: #007bff;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
   animation: vr-loader-spin 1s infinite ease-in-out;
 }
 
 .vr-loader-circle {
-  border-left-color: #007bff;
-  border-right-color: #007bff;
+  border-left-color: #000000;
+  border-right-color: #000000;
   animation: vr-loader-spin 2s infinite ease-in-out;
 }
 

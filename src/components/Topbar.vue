@@ -9,10 +9,10 @@
           <router-link class='nav-link' :to='`/price`'>ГОТОВЫЕ ВАРИАНТЫ</router-link>
         </li>
         <li class='nav-item'>
-          <router-link class='nav-link' :to='`/promotions`'>СОЗДАТЬ СВОЙ ДИЗАЙН</router-link>
+          <router-link class='nav-link' :to='`/creatPc`'>СОЗДАТЬ СВОЙ ДИЗАЙН</router-link>
         </li>
         <li class='nav-item'>
-          <router-link class='nav-link' :to='`/reservation`'>ОПЛАТА</router-link>
+          <router-link class='nav-link' :to='`/basket`'>ОПЛАТА</router-link>
         </li>
         <li class='nav-item'>
           <router-link class='nav-link' :to='`/about`'>ПОДДЕРЖКА</router-link>
@@ -30,8 +30,7 @@
               :to='`/cabinet`'>
               {{ loggedUser.login }}
             </router-link>
-            <span v-else @click='showDialogLoginWindow'>Личный кабинет</span>
-            <!--            <span  @click='showDialogLoginWindow'>Личный кабинет</span>-->
+            <span v-else @click='showDialogLoginWindow'>Мой профиль</span>
           </a>
         </li>
 

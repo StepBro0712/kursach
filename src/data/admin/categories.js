@@ -11,27 +11,14 @@ const categories = [
     ],
   },
   {
-    value: 'games',
-    name: 'Игры',
-    api: '/games',
-    key: 'game_id',
-    fields: [
-      {keyIn: 'game', name: 'game', type: 'text', value: ''},
-      {keyIn: 'age_limit', name: 'age_limit', type: 'number', value: ''},
-      {keyIn: 'duration', name: 'duration', type: 'number', value: ''},
-      {keyIn: 'genre', name: 'genre', type: 'text', value: ''},
-      {keyIn: 'price', name: 'price', type: 'number', value: ''},
-    ],
-  },
-  {
-    value: 'reservations',
-    name: 'Бронь',
-    api: '/reservations',
-    key: 'reservation_id',
+    value: 'basket',
+    name: 'Корзина',
+    api: '/basket',
+    key: 'basket_id',
     fields: [
       {
-        keyIn: 'reservation_time',
-        name: 'reservation_time',
+        keyIn: 'basket_time',
+        name: 'basket_time',
         type: 'datetime-local',
         value: '',
       },
@@ -69,54 +56,7 @@ const categories = [
       },
     ],
   },
-  {
-    value: 'rooms',
-    name: 'Комнаты',
-    api: '/rooms',
-    key: 'room_id',
-    fields: [
-      {keyIn: 'type_room', name: 'type_room', type: 'text', value: ''},
-      {keyIn: 'price', name: 'price', type: 'number', value: ''},
-    ],
-    sideFieldsLocal: [
-      {
-        keyIn: 'employee_id',
-        api: '/employees',
-        name: 'name',
-        subName: 'employee',
-        type: 'text',
-        value: '',
-      },
-      {
-        keyIn: 'vr_device_id',
-        api: '/vrdevices',
-        name: 'vr_glasses',
-        subName: 'vr_device_id',
-        type: 'number',
-        value: '',
-      },
-    ],
-  },
-  {
-    value: 'vrdevices',
-    name: 'ВР-устройства',
-    api: '/vrdevices',
-    key: 'vr_device_id',
-    fields: [
-      {keyIn: 'vr_glasses', name: 'vr_glasses', type: 'text', value: ''},
-      {keyIn: 'controller', name: 'controller', type: 'text', value: ''},
-    ],
-    sideFieldsLocal: [
-      {
-        keyIn: 'computer_id',
-        api: '/computers',
-        name: 'computer_id',
-        subName: 'computer_id',
-        type: 'text',
-        value: '',
-      },
-    ],
-  },
+
   {
     value: 'employees',
     name: 'Сотрудники',

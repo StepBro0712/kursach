@@ -8,10 +8,10 @@ import AdminMainForm from '@/components/adminPanel/AdminMainForm'
 import AdminCategories from '@/components/adminPanel/AdminCategories'
 import AdminLayout from '@/views/AdminLayout'
 import AdminCategoryItem from '@/components/adminPanel/AdminCategoryItem'
-import Reservation from '@/views/Reservation'
+import Basket from '@/views/Basket'
 import Price from '@/views/Price'
-import Promotions from '@/views/Promotions'
 import Error from '@/views/Error'
+import CreatPc from "@/views/CreatPc.vue";
 
 const routes = [
   {
@@ -31,9 +31,9 @@ const routes = [
   },
 
   {
-    path: '/reservation',
-    name: 'reservation',
-    component: Reservation,
+    path: '/basket',
+    name: 'basket',
+    component: Basket,
   },
   {
     path: '/price',
@@ -41,9 +41,9 @@ const routes = [
     component: Price,
   },
   {
-    path: '/promotions',
-    name: 'promotions',
-    component: Promotions,
+    path: '/creatPc',
+    name: 'creatPc',
+    component: CreatPc,
   },
 
   {

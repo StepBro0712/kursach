@@ -1,5 +1,5 @@
 <template>
-  <h1 style='color: white'>Цены</h1>
+  <h1 style='color: white'>Лучшие сборки</h1>
 </template>
 
 <script>

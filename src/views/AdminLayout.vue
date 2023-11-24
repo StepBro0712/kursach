@@ -20,7 +20,7 @@ export default {
 .main {
   min-height: 55em;
   max-width: 115em;
-  background-image: url('@/assets/admin/hack.webp');
+  background-image: url('@/assets/admin/admin.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

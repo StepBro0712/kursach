@@ -48,7 +48,7 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.62);
   display: flex;
   position: fixed;
   z-index: 10;
@@ -78,7 +78,7 @@ export default {
 
 .content {
   margin: auto;
-  background-color: rgb(98, 129, 176);
+  background-color: rgba(0, 0, 0, 0.86);
   border-radius: 25px;
   min-width: 300px;
   min-height: 50px;
