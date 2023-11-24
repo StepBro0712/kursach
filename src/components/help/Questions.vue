@@ -56,7 +56,6 @@ export default {
 
 <style scoped>
 
-
 h1{
   color: #ffffff;
   position: absolute;
@@ -68,11 +67,9 @@ h1{
   flex-direction: row;
 }
 
-
 .questions {
   display: flex;
   justify-content: space-between;
-
 }
 
 p{

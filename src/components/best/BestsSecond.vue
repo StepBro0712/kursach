@@ -109,7 +109,6 @@ h1{
   justify-content: space-between;
   background-color: rgba(10, 10, 10, 0.5);
   border-radius: 0.5em;
-
 }
 ul{
   list-style:none;
