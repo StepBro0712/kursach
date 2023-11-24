@@ -30,7 +30,7 @@ export default {
 .container_product:hover {
   margin-top: 2em;
   font-size: 1em;
-  transform: scale(1.15);
+  transform: scale(1.1);
   transform-origin: 50% 70%;
 }
 

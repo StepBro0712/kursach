@@ -1,16 +1,20 @@
 <template>
   <div class='sup'>
     <h1 style='color: white'>Часто задаваемые вопросы</h1>
+    <Questions/>
   </div>
   <Support/>
+
 
 </template>
 
 <script>
 import Support from '@/components/homePage/Support.vue'
+import Questions from '@/components/help/Questions.vue'
 export default {
   name: 'About',
   components: {
+    Questions,
     Support,
   },
   methods: {
@@ -32,7 +36,7 @@ export default {
 
 <style scoped>
 .sup {
-  height: 30em;
+  height: 50em;
   margin: 0 auto;
 }
 h1{

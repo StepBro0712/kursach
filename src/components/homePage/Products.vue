@@ -31,6 +31,8 @@
                    :product-img="require('@/assets/home/icons/products/p5.png')" />
       </div>
     </div>
+
+
   </div>
 </template>
 

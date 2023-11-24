@@ -3,17 +3,17 @@
     <h1 style='color: white'>Лучшее из нашей коллекции</h1>
   </div>
   <Bests/>
-  <Bests2/>
+  <BestsSecond/>
 
 </template>
 
 <script>
-import Bests from "@/components/homePage/Bests.vue";
-import Bests2 from "@/components/homePage/Bests2.vue";
+import Bests from "@/components/best/Bests.vue";
+import BestsSecond from "@/components/best/BestsSecond.vue";
 export default {
   name: 'Price',
   components: {
-    Bests2,
+    BestsSecond,
     Bests,
   },
   methods: {

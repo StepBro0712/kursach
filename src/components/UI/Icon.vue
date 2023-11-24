@@ -47,6 +47,7 @@ export default {
 .icon_text {
   color: white;
   font-size: 1.5em;
+  width: 15em;
 }
 
 .g {

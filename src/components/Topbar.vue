@@ -2,7 +2,7 @@
   <header class='navbar navbar-expand-lg navbar-black bg-black'>
     <div class='container'>
       <router-link class='navbar-brand' to='/'>
-        <img src='@/assets/logo1.png' width="150"  height="200" alt='Logo' class='logo-img'>
+        <img src='@/assets/logo1.png'  alt='Logo' class='logo-img'>
       </router-link>
       <ul class='navbar-nav mr-auto'>
         <li class='nav-item'>
@@ -22,7 +22,7 @@
       <ul class='navbar-nav ml-auto'>
         <li class='nav-item'>
           <a class='nav-link' href='#'>
-            <img src='@/assets/header/user.svg' alt='user' class='logo-img'>
+            <img src='@/assets/header/user.svg' alt='user' class='user'>
             <router-link
               class='nav-link'
               v-if='loggedUser'
@@ -93,8 +93,14 @@ header{
 }
 
 .logo-img {
-  max-height: 40px;
-  margin-right: 10px;
+  width:8em;
+  height:4em;
+}
+.user{
+  margin-right: 1em;
+  width:2.5em;
+  height:2.5em;
+
 }
 
 .logo-text {

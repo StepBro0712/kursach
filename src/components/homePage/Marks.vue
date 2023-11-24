@@ -4,17 +4,19 @@
 
     <div class='icons top-icons'>
       <div class='v-container v-container-1'>
-        <kurs-icon :icon-text='"Мега крутые компы"'
+        <kurs-icon :icon-text='"Мега крутые компы и прекрасный персонал"'
                    :icon-img="require('@/assets/home/icons/marks/m1.png')" />
       </div>
       <div class='v-container v-container-2'>
-        <kurs-icon :icon-text='"Спасибо, собрали прекраснейший ПК"'
+        <kurs-icon :icon-text='"Спасибо, собрали " +
+         "прекраснейший ПК"'
                    :icon-img="require('@/assets/home/icons/marks/m2.png')" />
       </div>
 
 
     <div class='v-container v-container-3'>
-      <kurs-icon :icon-text='"Это действительно лучшая компания в городе"'
+      <kurs-icon :icon-text='"Это действительно " +
+       "лучшая компания в городе"'
                  :icon-img="require('@/assets/home/icons/marks/m3.png')" />
     </div>
 
@@ -59,10 +61,6 @@ h1{
   display: flex;
   justify-content: space-between;
 
-}
-
-.icon-text{
-  font-size: 2em;
 }
 
 .v-container {

@@ -1,5 +1,6 @@
 <template>
   <h1 style='color: white'>Это ваша корзина</h1>
+  <img src='@/assets/basket/b1.png'  alt='Logo' class='basket'>
 </template>
 
 <script>
@@ -15,5 +16,9 @@ h1{
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+}
+img{
+  height: 750px;
+  width: 1520px;
 }
 </style>
