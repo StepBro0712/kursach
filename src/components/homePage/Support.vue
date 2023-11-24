@@ -27,6 +27,7 @@
   </div>
 </template>
 
+
 <script>
 import {mask} from 'vue-the-mask'
 import KursTextMultyModal from '@/components/modalWindows/textMultyModal'
