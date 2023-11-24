@@ -117,7 +117,7 @@ header{
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ff0000;
+  color: #a02828;
 }
 
 .navbar-nav.ml-auto .nav-link i {

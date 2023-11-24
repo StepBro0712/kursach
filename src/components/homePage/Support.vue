@@ -1,7 +1,7 @@
 <template>
   <div class='FifthScreen'>
-    <kurs-topic-text :topText='topText' />
-    <p class='text-center'>Мы всега готовы ответить на вашы вопросы</p>
+    <TopText :topText='topText' />
+    <H1 class='text-center'>Мы всега готовы ответить на вашы вопросы</H1>
 
     <form class='container-form' @submit.prevent='onSubmit'>
       <kurs-input
@@ -84,6 +84,7 @@ export default {
 </script>
 
 <style scoped>
+
 .FifthScreen {
   max-width: 75%;
   margin: 0 auto;

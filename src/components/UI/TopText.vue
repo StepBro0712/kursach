@@ -10,7 +10,7 @@ export default {
       required: true
     }
   },
-  name: 'kursTopicText'
+  name: 'TopText'
 }
 </script>
 

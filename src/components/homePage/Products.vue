@@ -59,15 +59,17 @@ h1{
 .product {
   background-size: cover;
   background-position: center;
-  height: 24em;
+  height: 26em;
   display: flex;
   text-align: center;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(15, 15, 15, 0.5);
+  background-color: rgba(10, 10, 10, 0.5);
   border-radius: 0.5em;
 
 }
+
+
 
 .v-container {
   display: flex;

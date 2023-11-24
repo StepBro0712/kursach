@@ -5,8 +5,8 @@
     </div>
     <input type='text' v-model='userInput' placeholder='Введите текст с картинки'>
     <button @click='validateCaptcha'>Проверить</button>
-    <p class='sideText' v-if='captchaValid'>Капча верна!</p>
-    <p class='sideText' v-else-if='captchaInvalid'>Капча неверна, попробуйте еще раз.</p>
+    <p class='sideText' v-if='captchaValid'>Вы человек :)</p>
+    <p class='sideText' v-else-if='captchaInvalid'>Капча неверна</p>
   </div>
 </template>
 

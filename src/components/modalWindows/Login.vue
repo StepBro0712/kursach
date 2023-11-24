@@ -31,10 +31,11 @@
 
 import KursRegister from '@/components/modalWindows/Register'
 import {mapMutations, mapState} from 'vuex'
+import KursInput from "@/components/UI/Input.vue";
 
 export default {
   name: 'kursLogin',
-  components: {KursRegister},
+  components: {KursInput, KursRegister},
   props: {},
   data() {
     return {
@@ -78,19 +79,37 @@ export default {
 </script>
 
 <style scoped>
+
+a{
+  margin:0.5em 0 0.5em 0 ;
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  margin:0.5em 0 0.5em 0 ;
+  text-decoration: none;
+  color:#a02828;
+}
+
 h2 {
   color: white;
   text-align: center;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .register-link {
   display: flex;
   right: 0;
+
 }
 
 .register-link > router-link {
   align-items: flex-end;
+}
+kurs-input{
+
 }
 
 .login-form {

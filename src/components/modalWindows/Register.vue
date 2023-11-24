@@ -94,6 +94,19 @@ export default {
 </script>
 
 <style scoped>
+
+a{
+  margin:0.5em 0 0.5em 0 ;
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  margin:0.5em 0 0.5em 0 ;
+  text-decoration: none;
+  color:#a02828;
+}
+
 h2 {
   color: white;
   text-align: center;

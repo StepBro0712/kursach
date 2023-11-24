@@ -35,7 +35,7 @@ export default {
   padding: 0 12px;
   font-size: 16px;
   outline: none;
-  border: 2px solid #ff0000;
+  border: 2px solid #a02828;
 }
 
 .form-group {

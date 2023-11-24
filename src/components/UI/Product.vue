@@ -27,6 +27,12 @@ export default {
   align-items: center;
   position: relative;
 }
+.container_product:hover {
+  margin-top: 2em;
+  font-size: 1em;
+  transform: scale(1.15);
+  transform-origin: 50% 70%;
+}
 
 .bgProduct {
   width: 19em;

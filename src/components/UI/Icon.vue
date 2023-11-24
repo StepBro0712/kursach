@@ -30,10 +30,11 @@ export default {
 }
 
 .bgIcon {
-  width: 307px;
-  height: 220px;
-  background: #ff0000;
-  filter: blur(75px);
+  margin: 0 7.5em 0 7.5em;
+  width: 20em;
+  height: 12em;
+  background: #a02828;
+  filter: blur(9em);
   border-radius: 2px;
 
 }
@@ -45,6 +46,7 @@ export default {
 
 .icon_text {
   color: white;
+  font-size: 1.5em;
 }
 
 .g {
