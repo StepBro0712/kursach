@@ -30,8 +30,11 @@ export default {
   align-items: center;
 
 }
-
-.main > div {
-
+h1{
+  text-align: center;
+  margin: 1em 0 1em 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
 }
 </style>

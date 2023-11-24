@@ -1,18 +1,47 @@
 <template>
-  <div class='main'>
-    <h1 style='color: white'>Поддержка</h1>
+  <div class='sup'>
+    <h1 style='color: white'>Часто задаваемые вопросы</h1>
   </div>
+  <Support/>
+
 </template>
 
 <script>
+import Support from '@/components/homePage/Support.vue'
 export default {
-  name: 'About'
+  name: 'About',
+  components: {
+    Support,
+  },
+  methods: {
+    scrollToElement() {
+      this.$nextTick(() => {
+        const fifthScreenElement = document.getElementById('fifthScreenElement')
+
+        if (fifthScreenElement) {
+          window.scrollTo({
+            top: fifthScreenElement.offsetTop,
+            behavior: 'smooth'
+          })
+        }
+      })
+    }
+  }
 }
 </script>
 
 <style scoped>
-.main {
-  max-width: 95em;
+.sup {
+  height: 30em;
   margin: 0 auto;
 }
+h1{
+  text-align: center;
+  margin: 1em 0 1em 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
 </style>
+
+
