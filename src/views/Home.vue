@@ -1,26 +1,24 @@
 <template>
-  <div class='main'>
-    <Slider />
-    <News @scroll-to-element='scrollToElement' />
+  <Slider />
+  <Products/>
     <Marks />
     <Support/>
 
-  </div>
 </template>
 
 <script>
-import kursFirstScreen from '@/components/homePage/News.vue'
 import kursThirdScreen from '@/components/homePage/Slider.vue'
+import Products from "@/components/homePage/Products.vue";
 import Support from '@/components/homePage/Support.vue'
 import Marks from "@/components/homePage/Marks.vue";
-import News from "@/components/homePage/News.vue";
 import Slider from "@/components/homePage/Slider.vue";
+
 
 export default {
   name: 'Home',
   components: {
     Slider,
-    //News,
+    Products,
     Marks,
     Support,
     kursThirdScreen,

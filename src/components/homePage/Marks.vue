@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import kursIcon from '@/components/homePage/Icon'
+import kursIcon from '@/components/UI/Icon.vue'
 import KursTopicText from "@/components/UI/TopicText.vue";
 
 export default {
@@ -49,12 +49,11 @@ h1{
   background-color: black;
   background-size: cover;
   background-position: center;
-  height: 640px;
+  height: 920px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .icons {
@@ -67,7 +66,5 @@ h1{
   display: flex;
 
 }
-
-
 
 </style>

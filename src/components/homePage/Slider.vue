@@ -106,10 +106,11 @@ h1{
 }
 
 .swiper-button-prev {
-  left: 20px;
+  left: 50px;
+  top: 560px
 }
 
 .swiper-button-next {
-  right: 20px;
+  right: 50px;
 }
 </style>

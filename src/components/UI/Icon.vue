@@ -2,7 +2,7 @@
   <div class='container_icon'>
     <div class='bgIcon'></div>
     <div>
-      <img :src='iconImg' alt='men' class='gicon'>
+      <img :src='iconImg' alt='makrs' class='g'>
       <p class='icon_text' v-html='iconText'></p>
     </div>
   </div>
@@ -32,9 +32,9 @@ export default {
 .bgIcon {
   width: 307px;
   height: 220px;
-  background: #26B7E2;
+  background: #ff0000;
   filter: blur(75px);
-  border-radius: 15px;
+  border-radius: 2px;
 
 }
 
@@ -47,7 +47,7 @@ export default {
   color: white;
 }
 
-.gicon {
+.g {
   margin-bottom: 10px;
 }
 </style>
