@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style>
+.body{
+  width: 1920px;
+}
 .main {
   max-width: 95em;
   min-height: 55em;

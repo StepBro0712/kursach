@@ -27,18 +27,17 @@
   </div>
 </template>
 
-
 <script>
 import {mask} from 'vue-the-mask'
 import KursTextMultyModal from '@/components/modalWindows/textMultyModal'
 import {mapMutations, mapState} from 'vuex'
-import KursTopicText from "@/components/UI/TopicText.vue";
 import KursInput from "@/components/UI/Input.vue";
+import TopText from "@/components/UI/TopText.vue";
 
 export default {
   directives: {mask},
   name: 'Support',
-  components: {KursInput, KursTopicText, KursTextMultyModal},
+  components: {KursInput, TopText, KursTextMultyModal},
   data() {
     return {
       topText: 'Мы поможем',

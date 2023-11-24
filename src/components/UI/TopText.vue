@@ -1,5 +1,5 @@
 <template>
-  <p class='advantage-text'>{{ topText }}</p>
+  <p class='text'>{{ topText }}</p>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
-.advantage-text {
+.text {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -23,6 +23,6 @@ export default {
   text-align: center;
   letter-spacing: 0.05em;
   color: #FFFFFF;
-  margin: 2em;
+  margin: 1em 0 1.5em 0;
 }
 </style>

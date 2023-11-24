@@ -25,11 +25,11 @@
 
 <script>
 import kursIcon from '@/components/UI/Icon.vue'
-import KursTopicText from "@/components/UI/TopicText.vue";
+import TopText from "@/components/UI/TopText.vue";
 
 export default {
   name: 'Marks',
-  components: {KursTopicText, kursIcon},
+  components: {TopText, kursIcon},
   data() {
     return {
       topText: 'Ваши отзывы'
@@ -49,7 +49,7 @@ h1{
   background-color: black;
   background-size: cover;
   background-position: center;
-  height: 920px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;

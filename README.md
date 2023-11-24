@@ -1,4 +1,4 @@
-# kursa4_front
+# TomskPcCustom
 
 ## Project setup
 ```

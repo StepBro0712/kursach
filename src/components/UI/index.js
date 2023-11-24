@@ -1,7 +1,7 @@
 import kursButton from '@/components/UI/Button'
 import kursInput from '@/components/UI/Input'
 import kursDialogWindow from '@/components/UI/DialogWindow'
-import kursTopicText from '@/components/UI/TopicText'
+import TopText from '@/components/UI/TopText.vue'
 import kursLoader from '@/components/UI/Loader'
 import kursSelect from '@/components/UI/Select'
 import kursReCapcha from '@/components/UI/ReCapcha'
@@ -10,7 +10,7 @@ export default [
   kursButton,
   kursInput,
   kursDialogWindow,
-  kursTopicText,
+  TopText,
   kursLoader,
   kursSelect,
   kursReCapcha,

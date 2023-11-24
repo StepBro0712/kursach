@@ -1,29 +1,20 @@
 <template>
   <div class='main-third'>
-    <div class='swipe-and-bg'>
       <Swiper
         effect='cube'
         :grab-cursor='true'
-
-        :pagination='{ clickable: true }'
         :navigation='{ prevEl: ".swiper-button-prev", nextEl: ".swiper-button-next" }'
       >
         <SwiperSlide v-for='photo in photos' :key='photo'>
           <img :src='requirePhoto(photo)' alt='img' />
         </SwiperSlide>
       </Swiper>
-      <div class='bgSlide'></div>
-      <div class='swiper-button-prev'></div>
-      <div class='swiper-button-next'></div>
     </div>
-  </div>
 </template>
 
 <script>
 import {Swiper, SwiperSlide} from 'swiper/vue'
 import SwiperCore, { Pagination, Navigation, EffectCards} from 'swiper'
-
-import 'swiper/css/effect-cube'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
@@ -39,7 +30,7 @@ export default {
   },
   data() {
     return {
-      photos: ['slide1.png', 'slide2.png', 'slide3.png']
+      photos: ['slider1.png', 'slider2.png', 'slider3.png']
     }
   },
   methods: {
@@ -51,10 +42,7 @@ export default {
 </script>
 
 <style scoped>
-.main-third {
-  height: 60em;
 
-}
 h1{
   color: #ffffff;
   position: absolute;
@@ -62,55 +50,17 @@ h1{
   left: 42%;
 }
 
-.swiper {
+swiper {
   width: 1704px;
   height: 800px;
   overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-.bgSlide {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1704px;
-  height: 800px;
-  filter: blur(75px);
 }
 
 .swiper-slide img {
   width: 100%;
   height: 100%;
+  margin: 2em 0 2em 0;
+  border-radius: 0.5em;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  position: absolute;
-  top: 50%;
-
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: #fff;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s ease;
-
-}
-
-.swiper-button-prev {
-  left: 50px;
-  top: 560px
-}
-
-.swiper-button-next {
-  right: 50px;
-}
 </style>

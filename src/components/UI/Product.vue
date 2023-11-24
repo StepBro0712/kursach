@@ -23,21 +23,21 @@ export default {
 
 <style scoped>
 .container_product {
-
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
 .bgProduct {
-  width: 307px;
-  height: 220px;
+  width: 19em;
+  height: 20px;
 
 }
 
 .container_icon > div:nth-child(2) {
   position: absolute;
   text-align: center;
+
 }
 
 .product_text {
@@ -45,6 +45,8 @@ export default {
 }
 
 .p {
-  margin-bottom: 10px;
+
+  margin: 0.5em 0 0.5em 0;
+  border-radius: 0.5em;
 }
 </style>
