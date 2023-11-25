@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .sup {
-  height: 50em;
+
   margin: 0 auto;
 }
 h1{
@@ -47,5 +47,3 @@ h1{
   font-size: 40px;
 }
 </style>
-
-
