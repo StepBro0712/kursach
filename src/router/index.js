@@ -106,7 +106,6 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   if (to.matched.length === 0) {
-    // Если маршрут не найден, перенаправляем на страницу ошибки
     next({name: 'error'})
   } else {
     next()

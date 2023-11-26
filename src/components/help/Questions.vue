@@ -99,7 +99,7 @@ ul{
 }
 
 .questions2{
-  margin-bottom: 20em;
+  margin-bottom: 8em;
   height: 20em;
 }
 

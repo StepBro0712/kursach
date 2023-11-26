@@ -30,11 +30,11 @@ export default {
   components: {KursTextMultyModal, KursRegister, KursLogin},
   data() {
     return {
-      textConfirm: 'Вам отправлено подтверждение на почту',
-      textProtect: 'Вам нужно сначала авторизироваться',
-      textProtectAdmin: 'Вы не администратор (пока что)',
-      textSuccessConfirm: 'Ожидайте, перезвоним сию минуту',
-      textFailureConfirm: 'Ошибка, неправильно ввели данные',
+      textConfirm: 'Вам отправлено письмо с подтверждение на почту',
+      textProtect: 'Сначала нужно авторизироваться',
+      textProtectAdmin: 'Ваша роль не администратор',
+      textSuccessConfirm: 'Ожидайте, скоро поддержка свяжется с вами',
+      textFailureConfirm: 'Ошибка, проверьте правильность ввода данных',
       textFailureData: 'Ошибка'
     }
   },
